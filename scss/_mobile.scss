@@ -15,6 +15,10 @@
     }
   }
   .home {
+    &-center {
+      grid-template-columns: 2fr;
+    }
+
     &-b {
       flex-direction: column;
       &-img {
@@ -49,12 +53,15 @@
     }
     &-inputs {
       flex-direction: column;
+      align-items: center;
     }
     &-warning {
       display: none;
     }
-    &-btn {
+    &-input {
+      width: 100%;
       margin-top: 1rem;
+      font-size: 0.85rem;
     }
   }
   .footer {

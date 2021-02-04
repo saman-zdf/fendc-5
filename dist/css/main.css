@@ -182,6 +182,8 @@
     font-size: 1em; }
   .header .showcase-title {
     font-size: 2rem; }
+  .home-center {
+    grid-template-columns: 2fr; }
   .home-b {
     flex-direction: column; }
     .home-b-img {
@@ -202,11 +204,14 @@
   .email-title {
     font-size: 1.8rem; }
   .email-inputs {
-    flex-direction: column; }
+    flex-direction: column;
+    align-items: center; }
   .email-warning {
     display: none; }
-  .email-btn {
-    margin-top: 1rem; }
+  .email-input {
+    width: 100%;
+    margin-top: 1rem;
+    font-size: 0.85rem; }
   .footer-logo {
     width: 120px; }
   .footer-container {
