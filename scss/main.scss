@@ -1,0 +1,40 @@
+@import "config";
+@import "header";
+@import "home";
+@import "mobile";
+@import "footer";
+
+body {
+  background: $email-dark-blue;
+  font-family: "Raleway", sans-serif;
+  color: #ffffff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+ul {
+  list-style: none;
+}
+
+// global style
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+.btn {
+  display: inline-block;
+  background: linear-gradient(to right, $garadien-Cyan, $garadien-blue);
+  padding: 0.875rem 4rem;
+  border-radius: 30px;
+  border: none;
+  &:active {
+    background: linear-gradient($garadien-Cyan, $garadien-Cyan);
+  }
+}
