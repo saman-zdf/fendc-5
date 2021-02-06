@@ -35,7 +35,11 @@ ul {
   border-radius: 30px;
   border: none;
   margin: 1rem auto 0;
+  transition: opacity 300ms ease;
   &:active {
     background: linear-gradient($garadien-Cyan, $garadien-Cyan);
+  }
+  &:hover {
+    opacity: 0.7;
   }
 }

@@ -141,8 +141,9 @@
     align-items: center;
   }
   &-input {
-    margin: 1.6rem 1rem 0 0;
-    padding: 1rem 3.2rem;
+    margin: 1rem 1rem 0 2rem;
+    padding: 1rem 4rem;
+    width: 100%;
     border-radius: 30px;
     border: none;
     &::-webkit-input-placeholder {
@@ -161,10 +162,10 @@
       color: rgb(162, 162, 162);
     }
   }
-  &-warning {
-    color: rgb(164, 17, 17);
-    padding-left: 1.1rem;
-    font-size: 0.7rem;
-    font-weight: bold;
+  &-btn {
+    // width: 50%;
+    color: #fff;
+    font-size: 1.1rem;
+    text-transform: capitalize;
   }
 }

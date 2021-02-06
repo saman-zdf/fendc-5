@@ -52,11 +52,7 @@
       font-size: 1.8rem;
     }
     &-inputs {
-      flex-direction: column;
-      align-items: center;
-    }
-    &-warning {
-      display: none;
+      display: block;
     }
     &-input {
       width: 100%;
@@ -66,7 +62,7 @@
     }
     &-btn {
       margin-top: 1rem;
-      display: inline-block;
+      width: 100%;
     }
   }
   .footer {

@@ -17,12 +17,15 @@
 
 .header .nav-link {
   text-transform: capitalize;
-  font-size: 1.1rem; }
+  font-size: 1.1rem;
+  transition: color 300ms ease; }
   .header .nav-link:active {
     text-decoration: underline; }
+  .header .nav-link:hover {
+    color: turquoise; }
 
 .header .showcase {
-  background: url("../images/bg-curvy-desktop.svg") center/cover no-repeat; }
+  background: url("../images/bg-curvy-desktop.svg") bottom center no-repeat; }
   .header .showcase-center {
     margin: 2rem auto 0; }
   .header .showcase-pic {
@@ -156,8 +159,9 @@
     justify-content: center;
     align-items: center; }
   .email-input {
-    margin: 1.6rem 1rem 0 0;
-    padding: 1rem 3.2rem;
+    margin: 1rem 1rem 0 2rem;
+    padding: 1rem 4rem;
+    width: 100%;
     border-radius: 30px;
     border: none; }
     .email-input::-webkit-input-placeholder {
@@ -170,11 +174,10 @@
       color: #a2a2a2; }
     .email-input::placeholder {
       color: #a2a2a2; }
-  .email-warning {
-    color: #a41111;
-    padding-left: 1.1rem;
-    font-size: 0.7rem;
-    font-weight: bold; }
+  .email-btn {
+    color: #fff;
+    font-size: 1.1rem;
+    text-transform: capitalize; }
 
 @media (max-width: 768px) {
   .header-logo {
@@ -205,10 +208,7 @@
   .email-title {
     font-size: 1.8rem; }
   .email-inputs {
-    flex-direction: column;
-    align-items: center; }
-  .email-warning {
-    display: none; }
+    display: block; }
   .email-input {
     width: 100%;
     margin-top: 1rem;
@@ -216,7 +216,7 @@
     margin: auto; }
   .email-btn {
     margin-top: 1rem;
-    display: inline-block; }
+    width: 100%; }
   .footer-logo {
     width: 120px; }
   .footer-container {
@@ -249,6 +249,7 @@
       margin-right: 1rem;
       border: 1px solid #ffffff;
       padding: 0.5rem;
+      font-size: 34px;
       border-radius: 50%;
       cursor: pointer; }
       .footer-column i:active {
@@ -283,6 +284,9 @@ ul {
   padding: 0.875rem 4rem;
   border-radius: 30px;
   border: none;
-  margin: 1rem auto 0; }
+  margin: 1rem auto 0;
+  transition: opacity 300ms ease; }
   .btn:active {
     background: linear-gradient(#65e2d9, #65e2d9); }
+  .btn:hover {
+    opacity: 0.7; }
